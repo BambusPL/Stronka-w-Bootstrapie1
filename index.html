@@ -153,31 +153,7 @@
    
    
    
-   <script src="jquery-3.1.1.min.js" ></script> <!-- dodawanie bibliotek jquery przed script-->
-	 
-	  <script>
-	  
-	  $(document).ready(function() {
-	var NavY = $('.nav').offset().top;
-	 
-	var stickyNav = function(){
-	var ScrollY = $(window).scrollTop();
-		  
-	if (ScrollY > NavY) { 
-		$('.nav').addClass('sticky'); // <!--nazwa klasy w css .sticky-->
-	} else {
-		$('.nav').removeClass('sticky'); 
-	}
-	};
-	 
-	stickyNav();
-	 
-	$(window).scroll(function() {
-		stickyNav();
-	});
-	});
-	  
-	  </script> <!-- dodawanie bibliotek jquery, na samym dole-->
+   
    
    
    
