@@ -200,7 +200,7 @@ background-color: #CDCDCD;
 
 .kont3
 {
-    height: 200px;
+    height: 600px;
     padding-top: 0;
 }
 
@@ -213,11 +213,18 @@ background-color: #CDCDCD;
     
 }
 
+.jubutton2:hover
+{
+   background-color: #dedede;
+    color: black;
+    border: 2px solid black;
+}
 .jubutton2 {
-    width: 50%;
-    border: none;
+    width: 25%;
+    border: 2px solid white;
     border-radius: 0px;
-    background-color:blueviolet;
+    background:none;
+    margin-top: 50px;
     margin-bottom: 150px;
     font-size: 1.5em;
         font-family: 'Lato', sans-serif;
@@ -232,8 +239,41 @@ background-color: #CDCDCD;
     padding-top: 100px;
     margin-bottom: 50px;
     font-family: 'Lato', sans-serif;
+    font-weight: 400;
 }
 
 .phead {
     padding: 30px;
+}
+
+.podkreslenie {
+    width: 60%;
+    color: #dedede;
+    border: 1px solid;
+    border-radius: 30px;
+    
+    
+}
+
+.card {
+   width: 85%; 
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background: none;
+}
+
+
+
+.przycisk3 {
+    background-color: blueviolet;
+    border: none;
+     display: table;
+    margin: 0 auto;
+    
+}
+
+.zdj25 {
+    object-fit: cover;
+    width: 100%;
 }
