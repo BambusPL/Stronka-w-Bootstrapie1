@@ -27,7 +27,7 @@ ul li
 {
   padding-right: 20px;
     letter-spacing: 2px;
-    font-size: 1.35em;
+    font-size: 1em;
     color: #ffffff;
     font-family: 'Work Sans', sans-serif;
     
@@ -142,6 +142,7 @@ background-color: #CDCDCD;
 {
     height: 100%;
     padding-bottom: 0;
+    border-bottom: 5px solid black;
     
    
     
@@ -151,7 +152,7 @@ background-color: #CDCDCD;
 .row3
 {
     text-align: center;
-    background-image: url(img/macbook.jpeg); /*<a href="http://www.freepik.com/free-photo/dark-abstract-texture_985069.htm">Designed by Freepik</a>*/
+    background-image: url(img/mac.jpg); /*<a href="http://www.freepik.com/free-photo/dark-abstract-texture_985069.htm">Designed by Freepik</a>*/
     height: 100%;
     border-top: 5px solid black;
     background-attachment: fixed;
@@ -222,7 +223,7 @@ background-color: #CDCDCD;
 
 .jubutton2:hover
 {
-   background-color: #dedede;
+   background: none;
     color: black;
     border: 2px solid black;
 }
@@ -296,4 +297,49 @@ background-color: #CDCDCD;
     
     margin-left: auto;
     margin-right: auto;
+}
+
+.kont3-1 {
+    background-image: url(img/cup2.jpg);
+    background-size: cover;
+    border-right: 2px solid black;
+    
+}
+
+.kont4 {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0px;
+    
+}
+
+.jubutton3 {
+    
+    display: table;
+    margin: 0 auto;
+    margin-top: 50%;
+    margin-bottom: 10%;
+     width: 25%;
+    border: 2px solid white;
+    border-radius: 0px;
+    background:none;
+    font-size: 1.5em;
+        font-family: 'Lato', sans-serif;
+}
+
+.jubutton3:hover
+{
+   background: none;
+    color: black;
+    border: 2px solid black;
+}
+
+.kont3-2 {
+    text-align: center;
+    padding: 50px;
+}
+
+.kont3-2 ul li
+{
+    list-style-type: none;
 }
