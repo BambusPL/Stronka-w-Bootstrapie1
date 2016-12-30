@@ -10,7 +10,7 @@ body
 {
     background: black;
     opacity: 0.95;
-    width: 90%;
+    
     margin-left: auto;
     margin-right: auto;
     
@@ -135,7 +135,7 @@ background-color: #CDCDCD;
 .container-fluid
 {
     margin: 0 auto;
-    padding: 5px;
+    
 }
 
 
