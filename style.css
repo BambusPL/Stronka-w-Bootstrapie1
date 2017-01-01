@@ -161,6 +161,7 @@ background-color: #CDCDCD;
 .klasa2
 {
     margin-top: 50px;
+    text-align: center;
 }
 
 #h3n
@@ -178,6 +179,11 @@ background-color: #CDCDCD;
     letter-spacing: 2px;
     font-weight: 500;
 
+}
+.klasa2 ul li
+{
+    text-align: center;
+    list-style-position: inside;
 }
 .klasa2 ul
 {
@@ -342,4 +348,13 @@ background-color: #CDCDCD;
 .kont3-2 ul li
 {
     list-style-type: none;
+}
+
+
+.kont76 {
+    height: 100%;
+    background-color: #dedede;
+    width: 100%;
+    border-bottom: 5px solid black;
+    padding: 50px;
 }
